@@ -71,7 +71,7 @@ form {
     width: 700px; /* Reduced width */
     margin: 40px auto 0; /* Pushed down slightly more */
     padding: 20px; /* Reduced padding */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #1a2d2f;
     border-radius: 10px; /* Reduced border radius */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Reduced box shadow */
 }
@@ -92,7 +92,7 @@ input[type="date"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #333;
+    background-color: #ccc;
     color: #fff;
     transition: background-color 0.3s ease;
 }
