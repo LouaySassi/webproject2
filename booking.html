@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
     <link rel="stylesheet" href="booking.css">
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,7 @@
             </nav>
     </header>        
     
-    <form action="#" method="post">
+    <form action="booking.php" method="post" onsubmit="return validateForm()">
         <label for="destination">Select Destination:</label>
         <select id="destination" name="destination">
             <option value="north">North Trip</option>
@@ -41,10 +42,10 @@
         <input type="tel" id="phone" name="phone" required>
 
         <label for="check-in">Check-in Date:</label>
-        <input type="date" id="check-in" name="check-in" required>
+        <input type="date" id="check-in" name="check_in" required>
 
         <label for="check-out">Check-out Date:</label>
-        <input type="date" id="check-out" name="check-out" required>
+        <input type="date" id="check-out" name="check_out" required>
 
         <input type="submit" value="Submit">
     </form>
