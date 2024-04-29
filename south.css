@@ -77,9 +77,27 @@ body{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-    #west{
-      margin-top: 500px;
-    }
+  #bkeyetheader h2{
+    position: relative;
+    color: var(--f-4-f-3-f-0, #F4F3F0);
+    font-family: Aboreto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-left: 200px;
+    text-transform: uppercase;
+    z-index: 5;
+  }
+  #bkeyetheader span{
+    color: var(--a-86747, #A86747);
+    font-family: Aboreto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
     #icon{
       float: left;
       scale: 0.8;
