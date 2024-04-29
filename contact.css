@@ -1,0 +1,229 @@
+body{
+    background-color: #1a2d2fea;
+}
+.card {
+    width: 240px;
+    height: 254px;
+    padding: 0 15px;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 60px;
+    scale: 1.2;
+}
+  
+.card > * {
+    margin: 0;
+}
+  
+.card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: #333;
+}
+  
+  .card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+  }
+  
+  .card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+  }
+  
+  .card__form button {
+    border: 0;
+    background: #bd8062;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .sign-up:hover {
+    opacity: 0.8;
+  } 
+  .sectionone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header {
+    padding: 10px;
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#1a2d2f48; 
+    border-radius: 70px;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+  nav {
+    color: white;
+    text-align: right;
+    padding: 1em 0;
+  }
+  nav a {
+    color: #F3EEDF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px;
+    margin: 12px;
+    
+  }
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 5px;
+  }
+  nav a:hover {
+    background-color: #d1e9dd5d;
+    border-radius: 20px;
+  }
+  nav li{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s all ease;
+  }
+  nav li::after{
+    content: '';
+    position: absolute;
+    width: 75%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: -5px;
+    left:15px;
+    background-color: #A86747;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  nav li:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  footer h3{
+    color: var(--f-3-eedf, #F3EEDF);
+    font-family: Aboreto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  #un{
+    display: flex;
+    flex-direction:column;
+  }
+  #pays{
+    color: var(--f-3-eedf, #F3EEDF);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight:lighter;
+    display: flex;
+    flex-direction:column;
+    line-height: 10px; 
+  }
+  footer img{
+    margin-top: 3%;
+  }
+  #bouton {
+    border: 2.5px solid #e7e7e7;
+    margin-top: 4.8%;
+  }
+  footer{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    gap: 50px;
+    background-color:#1a2d2f48; 
+    border-radius: 70px;
+    margin-top: 60px;
+  }
+  section a{
+    color: #ddd;
+    text-decoration: none;
+    line-height: 45px; 
+  }
+.socialmedia img{
+    padding: 10px;
+}
+.socialmedia{
+    margin-left: 60px;
+}
+  #bouton {
+    width: 12em;
+    position: relative;
+    height: 3.5em;
+    border: 2.5px solid #e6e6e6;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #bouton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 30%;
+    background-color: #1a2d2f48;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  #bouton::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 30%;
+    background-color: #1a2d2f48;
+    transition: 0.5s;
+  }
+  #bouton:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  #bouton:hover {
+    box-shadow: inset 0px 0px 25px #9dc6ca;
+  }
+  #bouton a {
+    text-decoration: none;
+    color: #ffffff;
+  }

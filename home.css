@@ -1,0 +1,366 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6e3;
+}
+header img{
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0;
+  float: left;
+}
+header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1A2D2F; 
+  color: white;
+  padding-bottom: 120px;
+  text-align: center;
+}
+nav {
+  color: white;
+  text-align: right;
+  padding: 20px;
+}
+nav a {
+  color: #F3EEDF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 15px;
+  margin: 12px;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5px;
+}
+nav a:hover {
+  background-color: #d1e9dd5d;
+  border-radius: 20px;
+}
+nav li{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+nav li::after{
+  content: '';
+  position: absolute;
+  width: 75%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: -5px;
+  left:15px;
+  background-color: #A86747;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+nav li:hover::after{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#b{
+  border: 1px solid #F3EEDF;
+  border-radius: 5px 0 5px 0;
+}
+#bkeyetheader h2{
+  position: relative;
+  color: var(--f-4-f-3-f-0, #F4F3F0);
+  font-family: Aboreto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-left: 200px;
+  text-transform: uppercase;
+  z-index: 5;
+}
+#bkeyetheader span{
+  color: var(--a-86747, #A86747);
+  font-family: Aboreto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.khat{
+  float:left;
+  margin-left:200px ;
+}
+.zarafa{
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -350px;
+  z-index:  2;
+  border-radius: 0 0 0 0;
+}
+.rectangle{
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -160px;
+  z-index: 0;
+}
+.design{
+  position: absolute;
+  margin-left: 240px;
+  margin-top: -130px;
+  z-index: 1;
+  opacity: 0.3;
+}
+.jeep{
+  position: absolute;
+  margin-left: 400px;
+  margin-top: -300px;
+  border-radius: 40px 0 0 0;
+  z-index: 3;
+}
+#bkeyetheader p{
+  color: #FFF;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 166%; 
+  padding: 1px;
+  margin-right: 600px;
+  margin-left: 210px;
+  text-justify:auto; 
+}
+#one {
+  margin: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+#nejma{
+  float: left;
+}
+#OVERVIEW{
+  color: var(--5-e-675-d, #5E675D);
+  font-family: Aboreto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 15px;
+}
+#welcome {
+  color: var(--5-e-675-d, #5E675D);
+  font-family: Aboreto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight:lighter;
+  line-height: 60px; 
+  text-transform: uppercase;
+  width: 600px;
+  height: 146px;
+}
+#welcome span{
+  color: var(--a-86747, #A86747);
+  font-family: Aboreto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+#ploula{
+  color: var(--5-e-675-d, #5E675D);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  width: 484px;
+  height: 152px;
+  margin-left: 600px;
+  margin-top:-100px;
+}
+#pdeux{
+  color: var(--5-e-675-d, #5E675D);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; 
+  width: 550px;
+  height: 152px;
+  margin-top:-270px;
+}
+#ptrois{
+  color: var(--5-e-675-d, #5E675D);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 152px;
+  margin-top:10px;
+}
+#agence{
+  margin-top: 200px;
+}
+#one h3{
+  padding: 15px;
+}
+#chakl{
+  margin-left: 220px;
+  margin-top:-670px ;
+  z-index: 0;
+}
+#fil{
+  position: relative;
+  margin-left: 700px;
+  margin-top: 230px;
+}
+#van {
+  z-index: 5;
+  position: absolute;
+  margin-top: -110px;
+}
+img:hover{
+  transform: scale(1.1);
+  transition:0.4s all ease ;
+}
+#titre{
+  margin-top: 10px;
+  position: absolute;
+}
+.tsawer:hover img:not(:hover){
+  opacity: .4;
+  transition: 0.6s all ease;
+}
+h3 {
+  color:var(--5-e-675-d, #5E675D); 
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+section img {
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+audio {
+  margin: 15px;
+  width: 35%;
+}
+section button a {
+  text-decoration: none;
+  color: #1A2D2F;
+  padding: 10px;
+}
+#bouton a {
+  text-decoration: none;
+  color: #ffffff;
+}
+button {
+  width: 12em;
+  position: relative;
+  height: 3.5em;
+  border: 2.5px solid #1A2D2F;
+  background-color: transparent;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+button::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 30%;
+  background-color: #fdf6e3;
+  transition: 0.5s;
+  transform-origin: center;
+}
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 30%;
+  background-color: #fdf6e3;
+  transition: 0.5s;
+}
+button:hover::before, button:hover::after {
+  transform: scale(0)
+}
+button:hover {
+  box-shadow: inset 0px 0px 25px #9dc6ca;
+}
+footer h3{
+  color: var(--f-3-eedf, #F3EEDF);
+  font-family: Aboreto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+#un{
+  display: flex;
+  flex-direction:column;
+}
+#pays{
+  color: var(--f-3-eedf, #F3EEDF);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight:lighter;
+  display: flex;
+  flex-direction:column;
+  line-height: 10px; 
+}
+#bouton::after {
+  background-color: #1A2D2F;
+}
+#bouton::before {
+  background-color: #1A2D2F;
+}
+footer img{
+  margin-top: 3%;
+}
+#bouton {
+  border: 2.5px solid #e7e7e7;
+  margin-top: 4.8%;
+}
+footer {
+  background-color: #1A2D2F;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  gap: 50px;
+  position:static;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+section a{
+  color: #ddd;
+  text-decoration: none;
+  line-height: 45px; 
+}
