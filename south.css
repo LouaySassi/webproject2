@@ -72,7 +72,10 @@ body{
     transform-origin: bottom right;
     transition: transform 0.5s ease-out;
   }
-  
+  #b{
+    border: 1px solid #F3EEDF;
+    border-radius: 5px 0 5px 0;
+  }
   nav li:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;

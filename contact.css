@@ -24,7 +24,10 @@ header {
 
   text-align: center;
 }
-
+#b{
+  border: 1px solid #F3EEDF;
+  border-radius: 5px 0 5px 0;
+}
 nav {
   color: white;
   text-align: right;
