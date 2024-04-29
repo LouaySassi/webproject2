@@ -7,28 +7,28 @@ body {
   overflow-x: hidden;
 }
 
+header img {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0;
+  float: left;
+}
+
 header {
   padding: 10px;
-  padding-bottom: 1px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: #1a2d2f;
-  border-radius: 70px;
+  background-color: #1A2D2F;
   color: white;
+  padding-bottom: 120px;
   text-align: center;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
 }
 
 nav {
   color: white;
   text-align: right;
-  padding: 1em 0;
-  margin-left: auto;
+  padding: 20px;
 }
 
 nav a {
@@ -48,11 +48,6 @@ nav ul {
   flex-direction: row;
   list-style: none;
   margin-left: 5px;
-}
-
-nav a:hover {
-  background-color: #d1e9dd5d;
-  border-radius: 20px;
 }
 
 nav li {
@@ -79,7 +74,6 @@ nav li:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
 footer h3 {
   color: var(--f-3-eedf, #F3EEDF);
   font-family: Aboreto;
