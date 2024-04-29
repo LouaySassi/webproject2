@@ -21,7 +21,7 @@ header {
   flex-wrap: wrap;
   background-color: #1A2D2F;
   color: white;
-  padding-bottom: 120px;
+
   text-align: center;
 }
 
@@ -194,7 +194,7 @@ button:hover::after {
   background-color: #1a2d2f80; /* Adjusted background color to match the navbar */
   padding: 20px; /* Added padding for better visibility */
   border-radius: 20px; /* Added border radius for rounded corners */
-  width: 70%; /* Adjusted width to make it centered */
+  width: 50%; /* Adjusted width to make it centered */
   margin: auto; /* Centering horizontally */
   text-align: center; /* Centering text */
 }
@@ -210,7 +210,7 @@ button:hover::after {
   background: rgb(255, 255, 255);
   box-shadow: transparent 0px 0px 0px 1px inset;
   padding: 0.6em;
-  border-radius: 14px;
+  border-radius: 5px;
   border: 1px solid #333;
   color: black;
   transition: background-color 0.3s ease; /* Added transition effect */
@@ -224,7 +224,7 @@ button:hover::after {
 }
 
 .contact-form button {
-  cursor: pointer;
+  cursor:pointer;
   border: 0;
   background: #fff;
   color: black;
