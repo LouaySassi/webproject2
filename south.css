@@ -89,10 +89,10 @@ body{
       margin: 80px;
       width: 100%;
       top: 40%;
-      transform: translateY(-15%);
+      transform: translateY(40%);
       text-align: left;
       z-index: 0;
-      color: black;
+      color: #1A2D2F;
       font-family: Aboreto;
       font-size: 80px;
       font-style: normal;
