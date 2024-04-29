@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,27 +12,19 @@
 <body>
     <header>
         <img src="rm.png" height="130px" width="280px">
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="north.html">North trip</a></li>
-                    <li><a href="middle.html">Middle african trip </a></li>
-                    <li><a href="south.html">South african trip</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a id="b" href="contact.html">book here</a></li>
-                </ul>
-            </nav>
-    </header>        
-    
-    <form action="booking.php" method="post" onsubmit="return validateForm()">
-        <label for="destination">Select Destination:</label>
-        <select id="destination" name="destination">
-            <option value="north">North Trip</option>
-            <option value="middle">Middle African Trip</option>
-            <option value="south">South African Trip</option>
-            <option value="other">Other</option>
-        </select>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="north.html">North trip</a></li>
+                <li><a href="middle.html">Middle african trip </a></li>
+                <li><a href="south.html">South african trip</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a id="b" href="booking.html">Book here</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <form action="#" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
@@ -41,6 +34,13 @@
         <label for="phone">Phone:</label>
         <input type="tel" id="phone" name="phone" required>
 
+        <label for="destination">Select Destination:</label>
+        <select id="destination" name="destination">
+            <option value="north">North Trip</option>
+            <option value="middle">Middle African Trip</option>
+            <option value="south">South African Trip</option>
+            <option value="other">Other</option>
+        </select>
         <label for="check-in">Check-in Date:</label>
         <input type="date" id="check-in" name="check_in" required>
 
@@ -51,4 +51,5 @@
     </form>
 
 </body>
+
 </html>
