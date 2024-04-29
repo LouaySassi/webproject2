@@ -1,0 +1,406 @@
+body{
+  width: 100%;
+  margin: 0;
+  
+}
+video{
+  width: 100%;
+  position: absolute;
+  height:fit-content;
+  object-fit: cover ;
+  z-index: -1;
+}
+header img {
+  position: relative;
+  margin-top: 0px;
+  margin-left: 0;
+  float: left;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1A2D2F;
+  color: white;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+nav {
+  color: white;
+  text-align: right;
+  padding: 20px;
+}
+
+nav a {
+  color: #F3EEDF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  padding: 15px;
+  margin: 12px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-left: 5px;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: 0.4s all ease;
+}
+
+nav li::after {
+  content: '';
+  position: absolute;
+  width: 75%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: -5px;
+  left: 15px;
+  background-color: #A86747;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+#b{
+  border: 1px solid #F3EEDF;
+  border-radius: 5px 0 5px 0;
+}
+nav li:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#bkeyetheader h2{
+  position: relative;
+  color: var(--f-4-f-3-f-0, #F4F3F0);
+  font-family: Aboreto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-left: 200px;
+  text-transform: uppercase;
+  z-index: 5;
+}
+#bkeyetheader span{
+  color: var(--a-86747, #A86747);
+  font-family: Aboreto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+  #icon{
+    float: left;
+    scale: 0.8;
+  }
+  h1{
+    position: absolute;
+    margin: 80px;
+    width: 100%;
+    top: 40%;
+    transform: translateY(40%);
+    text-align: left;
+    z-index: 0;
+    color: #1A2D2F;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Aboreto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  
+  }
+  #titre{
+    color: var(--5-e-675-d, #5E675D);
+  font-family: Aboreto;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  #titreicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-left: 90px;
+  }
+  #cadre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+  }
+  #try{
+    display: flex;
+    flex-direction: column;
+  }
+  #ymin{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+  }
+  #tripprice{
+    color: var(--a-86747, #A86747);
+  text-align: right;
+  font-family: Aboreto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  #tripinfo{
+    color: var(--5-e-675-d, #5E675D);
+  font-family: Aboreto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  section button a {
+      text-decoration: none;
+      color: #1A2D2F;
+      padding: 10px;
+    }
+    button {
+      width: 150px;
+      position: relative;
+      height: 3.5em;
+      border: 2.5px solid #1A2D2F;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      transition: 1s;
+      border-radius: 0.3em;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button::after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 3%;
+      width: 95%;
+      height: 30%;
+      background-color: #fdf6e3;
+      transition: 0.5s;
+      transform-origin: center;
+    }
+    button::before {
+      content: "";
+      transform-origin: center;
+      position: absolute;
+      top: 80%;
+      left: 3%;
+      width: 95%;
+      height: 30%;
+      background-color: #fdf6e3;
+      transition: 0.5s;
+    }
+    button:hover::before, button:hover::after {
+      transform: scale(0)
+    }
+    button:hover {
+      box-shadow: inset 0px 0px 25px #9dc6ca;
+    }
+
+    #bouton a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    footer h3{
+      color: var(--f-3-eedf, #F3EEDF);
+      font-family: Aboreto;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    #un{
+      display: flex;
+      flex-direction:column;
+    }
+    #pays{
+      color: var(--f-3-eedf, #F3EEDF);
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight:lighter;
+      display: flex;
+      flex-direction:column;
+      line-height: 10px; 
+    }
+    footer img{
+      margin-top: 3%;
+    }
+    #bouton {
+      border: 2.5px solid #e7e7e7;
+      margin-top: 120px;
+    }
+    footer{
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content:center ;
+      gap: 50px;
+      background-color:#1a2d2f; 
+      border-radius: 70px;
+      margin-top: 60px;
+    }
+    section a{
+      color: #ddd;
+      text-decoration: none;
+      line-height: 45px; 
+    }
+  .socialmedia img{
+      padding: 10px;
+  }
+  .socialmedia{
+      margin-left: 60px;
+  }
+  #bouton a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    #bouton {
+      width: 12em;
+      position: relative;
+      height: 3.5em;
+      border: 2.5px solid #e6e6e6;
+      outline: none;
+      background-color: transparent;
+      color: white;
+      transition: 1s;
+      border-radius: 0.3em;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    #bouton::after {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 3%;
+      width: 95%;
+      height: 30%;
+      background-color: #1a2d2f;
+      transition: 0.5s;
+      transform-origin: center;
+    }
+    #bouton::before {
+      content: "";
+      transform-origin: center;
+      position: absolute;
+      top: 80%;
+      left: 3%;
+      width: 95%;
+      height: 30%;
+      background-color: #1a2d2f;
+      transition: 0.5s;
+    }
+    #bouton:hover::before, button:hover::after {
+      transform: scale(0)
+    }
+    #bouton:hover {
+      box-shadow: inset 0px 0px 25px #9dc6ca;
+    }
+    #strength{
+      color: var(--5-e-675-d, #5E675D);
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; 
+      margin-left: 90px;
+      width: 400px;
+    }
+    #wehed{
+      margin-left: 90px;
+      color: var(--a-86747, #A86747);
+      font-family: Aboreto;
+      font-size: 100px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 60px; 
+    }
+    #col{
+      display: flex;
+      flex-direction: column;
+    }
+    #rowihom , #row{
+      gap: 90px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .flip-card {
+      background-color: transparent;
+      width: 190px;
+      height: 300px;
+      perspective: 1000px;
+      font-family: sans-serif;
+      scale: 1.1;
+      margin-top: 70px;
+      margin-bottom: 200px;
+      margin-left: 10%;
+    }
+    .title {
+      font-size: 1.5em;
+      font-weight: 900;
+      text-align: center;
+      margin: 0;
+    }
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+      
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+      .flip-card-front, .flip-card-back {
+        box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border: 1px solid rgb(185, 181, 181);
+        border-radius: 20px;
+        padding: 30px;
+      }
+      .flip-card-front {
+        background:  #1a2d2f 88%;
+        color: white;
+        font-size: 15px;
+      }
+      .flip-card-back {
+        background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+           rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+        color: #1a2d2f;
+        transform: rotateY(180deg);
+      }
