@@ -24,7 +24,7 @@ body{
       border-radius: 50px;
       flex-wrap: wrap;
       background-color: #1a2d2f5e; 
-      color: white;
+      color: black;
       padding-bottom: 1px;
       text-align: center;
     }
@@ -37,12 +37,13 @@ body{
     }
     h1{
       position: absolute;
+      margin: 80px;
       width: 100%;
       top: 40%;
-      transform: translateY(-30%);
-      text-align: center;
+      transform: translateY(-150%);
+      text-align: left;
       z-index: 0;
-      color: #ffffff;
+      color: black;
       font-family: Aboreto;
       font-size: 80px;
       font-style: normal;
