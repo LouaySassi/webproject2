@@ -96,12 +96,16 @@ nav li:hover::after{
   float:left;
   margin-left:200px ;
 }
-.zarafa{
+.sidibou{
   position: absolute;
   margin-left: 60px;
   margin-top: -350px;
   z-index:  2;
-  border-radius: 0 0 0 0;
+  overflow: hidden;
+  border-top-left-radius: 50 px; 
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0; 
+  border-bottom-right-radius: 50%;
 }
 .rectangle{
   position: absolute;
@@ -157,12 +161,12 @@ nav li:hover::after{
 #welcome {
   color: var(--5-e-675-d, #5E675D);
   font-family: Aboreto;
-  font-size: 44px;
+  font-size: 30px;
   font-style: normal;
   font-weight:lighter;
   line-height: 60px; 
   text-transform: uppercase;
-  width: 600px;
+  width: 500px;
   height: 146px;
 }
 #welcome span{
@@ -194,7 +198,7 @@ nav li:hover::after{
   line-height: 30px; 
   width: 550px;
   height: 152px;
-  margin-top:-270px;
+  margin-top:-150px;
 }
 #ptrois{
   color: var(--5-e-675-d, #5E675D);
@@ -224,7 +228,8 @@ nav li:hover::after{
 #van {
   z-index: 5;
   position: absolute;
-  margin-top: -110px;
+  margin-top: -180px;
+  margin-left: -1000px;
 }
 img:hover{
   transform: scale(1.1);
