@@ -7,13 +7,13 @@ body {
 }
 
 header {
-    padding: 5px; /* Reduced padding */
+    padding: 10px;
     padding-bottom: 1px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #1a2d2f; /* Updated color */
-    border-radius: 10px; /* Reduced border radius */
+    background-color: #1a2d2f48;
+    border-radius: 70px;
     color: white;
     text-align: center;
     align-items: center;
@@ -21,8 +21,6 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    height: 50px; /* Reduced height */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow */
 }
 
 nav {
@@ -35,12 +33,12 @@ nav {
 nav a {
     color: #F3EEDF;
     font-family: Roboto;
-    font-size: 16px; /* Reduced font size */
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration: none;
-    padding: 12px 20px; /* Reduced padding */
+    padding: 15px;
     margin: 12px;
 }
 
@@ -52,8 +50,8 @@ nav ul {
 }
 
 nav a:hover {
-    background-color: #2e4d50; /* Darker hover color */
-    border-radius: 10px;
+    background-color: #d1e9dd5d;
+    border-radius: 20px;
 }
 
 nav li {
@@ -82,12 +80,12 @@ nav li:hover::after {
 }
 
 form {
-    width: 740px;
-    margin: 80px auto 0; /* Increased margin-top */
-    padding: 30px;
-    background-color: #1a2d2f48; /* Updated color */
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 700px; /* Reduced width */
+    margin: 170px auto 0; /* Pushed down slightly more */
+    padding: 20px; /* Reduced padding */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Reduced border radius */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Reduced box shadow */
 }
 
 label {
@@ -120,7 +118,7 @@ input[type="date"]:hover {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #FFA500;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -129,8 +127,9 @@ input[type="submit"] {
     transition: background-color 0.3s ease;
     width: 100%;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #FF8C00;
 }
